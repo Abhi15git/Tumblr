@@ -1,0 +1,56 @@
+.commentBackground{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.692);
+    position: relative;
+}
+
+.commentContainer{
+    background-color: white;
+    width: 350px;
+    height: 70vh;
+    position: sticky;
+    margin: auto;
+    top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.commentBox{
+    width: 96%;
+    min-height: 90%;
+    margin: auto;
+    background-color: rgba(128, 128, 128, 0.432);
+    overflow-y: scroll;
+}
+.comment{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% auto;
+}
+.commentText p{
+    font-size: small;
+}
+.commentText button{
+    text-transform: none;
+    font-size: 10px;
+}
+.comment img{
+    width: 90%;
+}
+
+.commentDetail{
+    display: flex;
+    flex-direction: column;
+}
+.commentDetail:nth-child(){
+    width: 100%;
+}
+.newComment{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
